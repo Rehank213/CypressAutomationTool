@@ -1,4 +1,4 @@
-Environment setup guide:
+Environment setup guide:::
 1. Install Android Studio (https://developer.android.com/studio)
    tip: follow default installation
 2. install Java Development Kit (JDK): (https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
