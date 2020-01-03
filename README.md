@@ -35,3 +35,4 @@ Running tests:
    `adb devices` should return you the list of devices with your device you want to test on
 2. Start up Appium server: open terminal tab and run `appium`. You will see web link with port and a massage that appium is running
 3. run `pytest tests/ -sv`
+. run `pytest tests/ -sv`
