@@ -1,11 +1,12 @@
 import HomePage from '../../page-objects/HomePage'
 import FeedbackPage from '../../page-objects/FeedbackPage'
 import { name, email, subject, comments} from '../../fixtures/feedback-data'
+import { name, email, subject, comments} from '../../fixtures/feedback-data2'
 
 describe('Feedback Test', ()=> {
     const homePage = new HomePage()
-    const feedbackPage = new FeedbackPage() 
-    
+    const feedbackPage = new FeedbackPage()
+
     before(function() {
         homePage.visit()
     })
@@ -22,6 +23,6 @@ describe('Feedback Test', ()=> {
 
     it('should submit form successfully', function() {
         feedbackPage.showSuccessMessage()
-    })       
+    })
 
 })
